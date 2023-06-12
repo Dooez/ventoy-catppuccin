@@ -1,0 +1,9 @@
+{
+    "theme":{
+        "file": "/ventoy/catppuccin-macchiato-grub-theme/theme.txt",
+        "ventoy_color": "#8aadf4",
+        "fonts":[
+            "/ventoy/catppuccin-macchiato-grub-theme/font.pf2"
+        ]
+    }
+}
