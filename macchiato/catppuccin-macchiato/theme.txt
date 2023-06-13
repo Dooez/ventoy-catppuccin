@@ -13,15 +13,25 @@ terminal-border: "0"
 # Logo image
 # Comment this section if you plan to use ventoy in native resolution
 + image {
-	left = 50%-100
+	left = 50%-115
 	top = 20%-25
     file = "ventoy-logo-narrow.png"
 }
++ image {
+	left = 50%+40
+	top = 20%-25
+    file = "logo-narrow.png"
+}
 # Uncomment this section if you plan to use ventoy in native resolution
 #+ image {
-#	left = 50%-100
+#	left = 50%-155
 #	top = 20%-25
 #    file = "ventoy-logo.png"
+#}
+#+ image {
+#	left = 50%+55
+#	top = 20%-25
+#    file = "logo.png"
 #}
 
 # Show the boot menu
