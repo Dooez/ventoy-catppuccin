@@ -1,12 +1,8 @@
-# GRUB2 gfxmenu pop theme, based and inspired by Vimix and Dracula grub themes
-# Designed for any resolution
-# 
-
 # Global Property
 title-text: ""
 desktop-image: "background.png"
 desktop-image-scale-method: "stretch"
-desktop-color: "#24273A"
+desktop-color: "#1E1E2E"
 terminal-font: "Unifont Regular 16"
 terminal-left: "0"
 terminal-top: "0"
@@ -15,11 +11,18 @@ terminal-height: "100%"
 terminal-border: "0"
 
 # Logo image
+# Comment this section if you plan to use ventoy in native resolution
 + image {
 	left = 50%-100
 	top = 20%-25
-    file = "ventoy-logo.png"
+    file = "ventoy-logo-narrow.png"
 }
+# Uncomment this section if you plan to use ventoy in native resolution
+#+ image {
+#	left = 50%-100
+#	top = 20%-25
+#    file = "ventoy-logo.png"
+#}
 
 # Show the boot menu
 + boot_menu {
@@ -28,8 +31,8 @@ terminal-border: "0"
   width = 480
   height = 30%
   item_font = "Unifont Regular 16"
-  item_color = "#CAD3F5"
-  selected_item_color = "#CAD3F5"
+  item_color = "#CDD6F4"
+  selected_item_color = "#CDD6F4"
   icon_width = 32
   icon_height = 32
   item_icon_space = 20
@@ -47,7 +50,7 @@ terminal-border: "0"
   align = "center"
   id = "__timeout__"
   text = "@TIMEOUT_NOTIFICATION_SHORT@"
-  color = "#CAD3F5"
+  color = "#CDD6F4"
 }
 
 + hbox{ 
@@ -55,7 +58,7 @@ terminal-border: "0"
     top = 95%
     width = 10%
     height = 25
-    + label {text = "@VTOY_HOTKEY_TIP@" color = "#CAD3F5" align = "left"} 
+    + label {text = "@VTOY_HOTKEY_TIP@" color = "#CDD6F4" align = "left"} 
 }
 
 
@@ -64,7 +67,7 @@ terminal-border: "0"
     top = 95%-50
     width = 10%
     height = 25
-    + label {text = "@VTOY_ISO_RAW@" color = "#ED8796" align = "left"} 
+    + label {text = "@VTOY_ISO_RAW@" color = "#F38BA8" align = "left"} 
 }
 
 
@@ -73,7 +76,7 @@ terminal-border: "0"
     top = 95%-50
     width = 10%
     height = 25
-    + label {text = "@VTOY_GRUB2_MODE@" color = "#ED8796" align = "left"} 
+    + label {text = "@VTOY_GRUB2_MODE@" color = "#F38BA8" align = "left"} 
 }
 
 + hbox{ 
@@ -81,7 +84,7 @@ terminal-border: "0"
     top = 95%-25
     width = 10%
     height = 25
-    + label {text = "@VTOY_WIMBOOT_MODE@" color = "#ED8796" align = "left"} 
+    + label {text = "@VTOY_WIMBOOT_MODE@" color = "#F38BA8" align = "left"} 
 }
 
 + hbox{ 
@@ -89,5 +92,5 @@ terminal-border: "0"
     top = 55 
     width = 10%
     height = 25
-    + label {text = "@VTOY_ISO_UEFI_DRV@" color = "#ED8796" align = "left"} 
+    + label {text = "@VTOY_ISO_UEFI_DRV@" color = "#F38BA8" align = "left"} 
 }
