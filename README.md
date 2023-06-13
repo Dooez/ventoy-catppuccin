@@ -38,4 +38,6 @@
 
 ## Acknowledgement
 
+Logo font is [Poppins](https://fonts.google.com/specimen/Poppins).
+
 This themes are based on [Catppuccin for Grub](https://github.com/catppuccin/grub) and [Ventoy Purple Theme](https://github.com/odiegoduarte/ventoy-purple-theme)
