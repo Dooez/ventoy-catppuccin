@@ -11,28 +11,23 @@ terminal-height: "100%"
 terminal-border: "0"
 
 # Logo image
-# Comment this section if you plan to use ventoy in native resolution
 + image {
-	left = 50%-115
-	top = 20%-25
-    file = "ventoy-logo-narrow.png"
-}
-+ image {
-	left = 50%+40
-	top = 20%-25
+	left = 50%-96
+	top = 20%-27
     file = "logo-narrow.png"
 }
-# Uncomment this section if you plan to use ventoy in native resolution
-#+ image {
-#	left = 50%-155
-#	top = 20%-25
-#    file = "ventoy-logo.png"
-#}
-#+ image {
-#	left = 50%+55
-#	top = 20%-25
-#    file = "logo.png"
-#}
+# Footer image
++ image {
+	left = 40%-255
+	top = 90%-30
+    file = "footer-narrow.png"
+}
++ image {
+	left = 0%
+	top = 90%+8
+	width = 100%
+    file = "line.png"
+}
 
 # Show the boot menu
 + boot_menu {
