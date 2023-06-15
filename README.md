@@ -5,29 +5,31 @@
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
+## Description
+ <img src="assets/preview.png"/>
+This is a Ventoy theme using Catppucin palette. The theme is configured for Ventoy's default 1024x768 resolution, viewed on 16:9 screen.
+
 ## Previews
-Previews are outdated.
+Previews are captured in VM and scaled from 1024x768 to 1920x1080 in Gimp.
 
 <details>
 <summary>🌻 Latte</summary>
-  <img src="assets/ventoy-latte.png"/>
+  <img src="assets/latte-scaled.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-  <img src="assets/ventoy-frappe.png"/>
+  <img src="assets/frappe-scaled.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-  <img src="assets/ventoy-macchiato.png"/>
+  <img src="assets/macchiato-scaled.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-  <img src="assets/ventoy-mocha.png"/>
+  <img src="assets/mocha-scaled.png"/>
 </details>
 
 ## Usage
-
-This theme is currently configured for Ventoy default 1024x768 resolution, viewed on 16:9 screen.
 
 **1.** Clone this repository locally
 
@@ -35,7 +37,7 @@ This theme is currently configured for Ventoy default 1024x768 resolution, viewe
 
 **3.** Copy `catpuccin-<flavour>` folder into `ventoy` folder on your ventoy drive. 
 
-**4.** Copy `ventoy.json` into `ventoy` folder on your ventoy drive or merge with existing file.
+**4.** Copy `ventoy.json` into `ventoy` folder on your drive or merge with an existing file.
 
 ## Modification
 
@@ -48,4 +50,4 @@ Footers were also edited in Gimp to make the line the little cat sits on pixel p
 
 Logo font is [Poppins](https://fonts.google.com/specimen/Poppins).
 
-This themes are based on [Catppuccin for Grub](https://github.com/catppuccin/grub) and [Ventoy Purple Theme](https://github.com/odiegoduarte/ventoy-purple-theme)
+These themes are based on [Catppuccin for Grub](https://github.com/catppuccin/grub) and [Ventoy Purple Theme](https://github.com/odiegoduarte/ventoy-purple-theme)
