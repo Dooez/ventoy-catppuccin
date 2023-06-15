@@ -6,6 +6,7 @@
 </h3>
 
 ## Previews
+Previews are outdated.
 
 <details>
 <summary>🌻 Latte</summary>
@@ -26,15 +27,22 @@
 
 ## Usage
 
+This theme is currently configured for Ventoy default 1024x768 resolution, viewed on 16:9 screen.
+
 **1.** Clone this repository locally
 
 **2.** Open chosen flavor folder
 
-**3. (Optional)** Edit `catpuccin-<flavour>/theme.txt` to use unscaled logo. Default resolution is 1024x768 and the logo is scaled to look better on 16:9 monitors. You may also delete unused logo.
+**3.** Copy `catpuccin-<flavour>` folder into `ventoy` folder on your ventoy drive. 
 
-**4.** Copy `catpuccin-<flavour>` folder into `ventoy` folder on your ventoy drive. 
+**4.** Copy `ventoy.json` into `ventoy` folder on your ventoy drive or merge with existing file.
 
-**5.** Use [VentoyPlugson](https://www.ventoy.net/en/plugin_plugson.html) to add theme and font, or copy `ventoy.json` into `ventoy` folder on your ventoy drive.
+## Modification
+
+If you want to modify this is how I've exported images:
+
+To prevent weird anti-aliasing artifacts when exporting main logos from Inkscape I've exported logos in high resolution and scaled down in Gimp.
+Footers were also edited in Gimp to make the line the little cat sits on pixel perfect.
 
 ## Acknowledgement
 
