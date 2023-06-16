@@ -10,7 +10,7 @@
 This is a Ventoy theme using Catppucin palette. The theme is configured for Ventoy's default 1024x768 resolution, viewed on 16:9 screen.
 
 ## Previews
-Previews are captured in VM and scaled from 1024x768 to 1920x1080 in Gimp.
+Previews are captured in VM and scaled from 1024x768 to 1920x1080 in Gimp. Text looks strange when scaled this way. On my monitor native scaling results in a much better text, but neither do I know how to reproduce it syntheticaly, nor am I sure that you will have similar results.
 
 <details>
 <summary>🌻 Latte</summary>

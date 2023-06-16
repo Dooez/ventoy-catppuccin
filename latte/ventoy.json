@@ -3,7 +3,7 @@
         "file": "/ventoy/catppuccin-latte/theme.txt",
         "ventoy_color": "#1e66f5",
         "fonts":[
-            "/ventoy/catppuccin-latte/font.pf2"
+            "/ventoy/catppuccin-latte/terminus-14.pf2"
         ]
     }
 }
